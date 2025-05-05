@@ -61,8 +61,3 @@ console.log(number1 / number2);  // operator /
 // ** exponentiation
 console.log(number1 ** number2);  // operator **
 
-// eden
-
-
-
-
