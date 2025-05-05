@@ -48,5 +48,19 @@ const b: number = 5;
 const sum: number = a + b;
 
 
+// operators:
+// + - * / (%)
+
+const number1: number = 10;
+const number2: number = 5;
+console.log(number1 + number2);  // operator +
+console.log(number1 - number2);  // operator -
+console.log(number1 * number2);  // operator *
+console.log(number1 / number2);  // operator /
+
+// ** exponentiation
+console.log(number1 ** number2);  // operator **
+
+
 
 
