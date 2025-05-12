@@ -34,4 +34,31 @@ if(foo != 5){
     console.log("foo is SMALL than 5");
 }
 
+const foo1: number = 578;
+const foo2: number = 6;
+const foo3: number = 100;
+// get max number with if else:
+// if(foo1 > foo2) {
+//     if(foo1 > foo3) {
+
+
+if(foo1 > foo2){ // 57 > 6 == true
+    if(foo1 > foo3){ // 57 > 100 == false
+        console.log(`max is ${foo1}`);
+    } else {
+        console.log(`max is ${foo3}`);
+    }
+} else if(foo2 > foo3){ // 6 > 100 == false
+    console.log(`max is ${foo3}`);
+} 
+
+// || = OR , && = AND
+// syntax: if(condition1 || condition2) { ... } : if(condition1 && condition2) { ... }
+const foo4: number = 5;
+const foo5: number = 6;
+if((foo4 > foo5) || (foo4 < foo5)){}
+
+if((foo4 > foo5) && (foo4 < foo5)){}
+
+
 
