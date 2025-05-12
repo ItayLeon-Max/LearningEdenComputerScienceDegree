@@ -39,9 +39,9 @@ const yourIsEden: boolean = true;
 
 console.log(`my name is: ${yourName}, my age is: ${yourAge}, am i Eden: ${yourIsEden}`);
 
-const APIURL: string = "https://api.example.com";
-const printAPI = APIURL;
-console.log(`my api url is: ${printAPI}`);
+const API_URL: string = "https://api.example.com";
+const printAPI = API_URL;
+console.log(`my api url is: ${API_URL}`);
 
 const a: number = 10;
 const b: number = 5;
@@ -60,14 +60,4 @@ console.log(number1 / number2);  // operator /
 
 // ** exponentiation
 console.log(number1 ** number2);  // operator **
-
-// % modulus
-//567
-
-const number3: number = 567;
-console.log(number3 % 10); // 7
-console.log(number3 )
-
-console.log(number3 / 10) 
-
 
