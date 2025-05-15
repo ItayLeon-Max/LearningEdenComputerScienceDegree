@@ -37,3 +37,12 @@
     } else {
         console.log(str4.toLowerCase())
     }
+
+    //EX2:
+    const str5: string = "Hello World";
+    if(str5.length > 10) console.log(false)
+    else if(str5.length < 10) console.log(true)
+    // else console.log(str5.split(''))
+
+    //1. מה הקוד עושה?
+    //2. שני את הקוד בהתאם כך שהתוכנית תדפיס ture או false
