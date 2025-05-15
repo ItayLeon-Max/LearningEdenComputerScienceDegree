@@ -28,3 +28,12 @@
     console.log(str2.length)
     console.log(str2[24])
     console.log(str2[4])
+
+    //ex1:
+    const str3: string = "this is a string";
+    const str4: string = "this is a big string";
+    if(str3.length > str4.length){
+        console.log(str3.toUpperCase())
+    } else {
+        console.log(str4.toLowerCase())
+    }
